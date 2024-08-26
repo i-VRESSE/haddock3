@@ -980,7 +980,7 @@ def _css_styles_for_report():
     }
 
     """
-    css_link = "https://esm.sh/@i-vresse/haddock3-analysis-components@~0.4.1/dist/style.css"  # noqa:E501
+    css_link = "https://esm.sh/@i-vresse/haddock3-analysis-components@~0.4.5/dist/style.css"  # noqa:E501
     table_css = f' <link href={css_link} rel="stylesheet" />'
     return f"{table_css}<style>{custom_css}</style>"
 
@@ -1034,7 +1034,7 @@ def _generate_html_head(step):
                 "imports": {
                     "react": "https://esm.sh/react@^18.2.0",
                     "react-dom": "https://esm.sh/react-dom@^18.2.0",
-                    "@i-vresse/haddock3-analysis-components": "https://esm.sh/@i-vresse/haddock3-analysis-components@~0.4.1?bundle"
+                    "@i-vresse/haddock3-analysis-components": "https://esm.sh/@i-vresse/haddock3-analysis-components@~0.4.5?bundle"
                 }
             }
             </script>"""  # noqa : E501
